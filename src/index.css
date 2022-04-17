@@ -96,6 +96,7 @@ label:hover {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 /* modal styles */
 .backdrop {
@@ -132,4 +133,11 @@ label:hover {
 * {
   margin: 0;
   padding: 0;
+}
+
+.btn-delete {
+  background-color: purple;
+  z-index: 2;
+  width: 80px;
+  height: 20px;
 }
