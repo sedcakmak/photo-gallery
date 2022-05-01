@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <FontAwesomeIcon icon={faUser} className="user-icon" />
-      <h1>Navbar</h1>
+      <h1>Photo Gallery</h1>
     </div>
   );
 };
